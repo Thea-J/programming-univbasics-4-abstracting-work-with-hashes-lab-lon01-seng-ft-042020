@@ -10,8 +10,7 @@ def read_from_hash(hash, key)
   hash[key]
 end
 
-
- #Return an updated hash
+#Return an updated hash
 #A key is not present, add it to the hash
 def update_counting_hash(hash, key)
  if hash[key]
